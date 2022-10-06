@@ -17,7 +17,7 @@ module qr_code() {
     resize([100,100,0])
     linear_extrude(height = 2){
     	offset(delta=0.001)
-    	import(file = "/Users/gturner/Developer/Work/danger-digital-ecommerce-assets/QR Code/qr-code-website/qr-code-website-output.svg", center=true);
+    	import(file = "./qr-code-website-output.svg", center=true);
     };
 }
 
@@ -29,7 +29,7 @@ module qr_code_negative() {
         resize([100,100,0])
         linear_extrude(height = 2){
             offset(delta=0.001)
-            import(file = "/Users/gturner/Developer/Work/danger-digital-ecommerce-assets/QR Code/qr-code-website/qr-code-website-output.svg", center=true);
+            import(file = "./qr-code-website-output.svg", center=true);
         };
     };
 }
