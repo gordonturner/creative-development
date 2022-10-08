@@ -7,13 +7,13 @@ import cv2
 parser = argparse.ArgumentParser(description='Take an image and pixel-ize it.')
 
 parser.add_argument('-i', 
-					type=str, 
-					required=False,
+                    type=str, 
+                    required=False,
                     default='input.jpg',
                     help='input image file')
 
 parser.add_argument('-o', type=str, 
-					required=False,
+                    required=False,
                     default='output.jpg',
                     help='output jpg filename, defaults to "output.svg"')
 
