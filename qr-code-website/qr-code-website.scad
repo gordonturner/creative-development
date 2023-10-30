@@ -36,7 +36,7 @@ module qr_code_negative() {
 
 module assembly() {
      border();
-     base();
+     //base();
      qr_code();
      qr_code_negative();
 }
