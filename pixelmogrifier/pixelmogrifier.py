@@ -30,7 +30,10 @@ input = cv2.imread(args.i)
 height, width = input.shape[:2]
 
 # Desired "pixelated" size
-w, h = (64, 64)
+# w, h = (64, 64)
+w, h = (32, 32)
+# w, h = (24, 24)
+# w, h = (16, 16)
 
 # Resize input to "pixelated" size
 temp = cv2.resize(input, (w, h), interpolation=cv2.INTER_LINEAR)
